@@ -3,7 +3,7 @@ import { useState } from "react";
 interface Props {
   items: string[];
   heading: string;
-  // (item: string) => void
+  // (item: string) => void (this is a fn with no parameters)
   onSelectItem: (item: string) => void;
 }
 
